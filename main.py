@@ -20,17 +20,19 @@ except:
 db = conn.EM_mongo 
   
 # Created or Switched to collection names: my_gfg_collection 
+# this is a standard python dictionary that i can populate in any number
+# of ways in python
 collection = db.test_data 
   
 emp_rec1 = { 
-        "name":"Mr.Geek", 
+        "name":"Mrs. Peanut", 
         "eid":24, 
-        "location":"delhi"
+        "location":"Elmo"
         } 
 emp_rec2 = { 
-        "name":"Mr.Shaurya", 
+        "name":"Mrs. Bailey", 
         "eid":14, 
-        "location":"delhi"
+        "location":"Elmo"
         } 
   
 # Insert Data 
