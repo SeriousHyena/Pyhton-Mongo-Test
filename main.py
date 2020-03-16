@@ -1,3 +1,4 @@
+# Brett you might find this useful
 # initial date: 3/16/2020
 # Python code to illustrate 
 # inserting data in MongoDB 
@@ -6,6 +7,11 @@
 # and it works great!
 # make sure the mongo db server is running
 # use mongo compass to view the database
+
+# i can either write a function or class to call the database writing code or 
+# just leave it inline. i would write the python code that generates the data (i.e.)
+# from a websraping junket or some other data
+
 
 import pymongo
 from pymongo import MongoClient 
