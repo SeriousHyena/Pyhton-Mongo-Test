@@ -1,3 +1,4 @@
+# initial date: 3/16/2020
 # Python code to illustrate 
 # inserting data in MongoDB 
 # i don't get credit for this. I got this from: 
