@@ -33,19 +33,36 @@ collection = db.test_data
 emp_rec1 = { 
         "name":"Mrs. Peanut", 
         "eid":24, 
-        "location":"Elmo"
+        "location":"Elmo",
+        'Comments':'Peanut is a great dog and I love her very much'
         } 
 emp_rec2 = { 
         "name":"Mrs. Bailey", 
         "eid":14, 
-        "location":"Elmo"
+        "location":"Elmo",
+        'Comments':'Bailey is a great dog and I miss her very much'
         } 
+dog_1 = {
+        'name':'Oliver',
+        'dog_id':3,
+        'location':'doghouse_1',
+        'Comments':'Oliver is a crazy dog and I think he needs therapy'
+        }
+
+dog_2 = {
+        'name':'Tigger',
+        'dog_id':4,
+        'location':'doghouse_2',
+        'Comments':'Tigger is a big teddy bear'
+        }
   
 # Insert Data 
 rec_id1 = collection.insert_one(emp_rec1) 
 rec_id2 = collection.insert_one(emp_rec2) 
-  
-print("Data inserted with record ids",rec_id1," ",rec_id2) 
+rec_id3 = collection.insert_one(dog_1)
+rec_id4 = collection.insert_one(dog_2)
+
+print("Data inserted with record ids",rec_id1," ",rec_id2, ' ', rec_id3, ' ', rec_id4) 
   
 # Printing the data inserted 
 cursor = collection.find() 
