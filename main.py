@@ -4,6 +4,7 @@
 # inserting data in MongoDB 
 # i don't get credit for this. I got this from: 
 # https://www.geeksforgeeks.org/mongodb-python-insert-update-data/
+# local repo location: C:\Users\emack\python-mongo
 # and it works great!
 # make sure the mongo db server is running
 # use mongo compass to view the database
